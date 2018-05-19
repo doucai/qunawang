@@ -1,4 +1,8 @@
 # demo
+作者:小菜
+本项目是防写去哪网app项目，相关像素会有偏差。
+项目中主要使用了 icon font，fastclick.js stylus.css axios  vue-router 
+
 
 > A Vue.js project
 
@@ -18,4 +22,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

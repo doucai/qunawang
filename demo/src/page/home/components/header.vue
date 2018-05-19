@@ -1,0 +1,56 @@
+<template>
+  <div class="header">
+    <div class="header-left">
+        <span class="iconfont back-icon">&#xe624;</span>
+    </div>
+    <div class="header-input">
+        <span class="iconfont">&#xe632;</span>
+        请输入内容
+    </div>
+    <div class="header-right">
+        城市
+        <span class="iconfont arrow-icon">&#xe6aa;</span>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+
+  }
+
+</script>
+
+<style lang="stylus" scoped>
+@import "~styles/varibies.styl"
+  .header  
+    display: flex
+    height: .86rem
+    line-height: .86rem
+    background: $bgColor
+    color: #fff
+    .header-left 
+        width: .64rem
+        float: left
+        .back-icon
+            width: 100%
+            display: inline-block
+            font-size: 0.2rem
+            text-align: center
+    .header-input
+        flex: 1
+        margin: .12rem
+        background: #fff
+        border-radius: 0.1rem
+        color: #888
+        line-height: .62rem
+        padding-left: .2rem
+    .header-right 
+        width: 1.24rem
+        text-align: center
+        .arrow-icon
+            display: inline-block
+            font-size: .24rem
+ 
+
+</style>

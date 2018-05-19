@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 // 通过import引入外部css
-import './assets/style/reset.css'
-import './assets/style/border.css'
+import 'styles/reset.css'
+import 'styles/border.css'
+import 'styles/iconfont.css'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
