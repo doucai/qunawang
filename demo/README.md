@@ -10,6 +10,7 @@ vue-router
 vue-awesome-swipe
 
 所有资源来源于去哪网,侵删!
+本项目仅作为个人学习
 
 
 
