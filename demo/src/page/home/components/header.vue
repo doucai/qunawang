@@ -8,7 +8,7 @@
        <input type="text" placeholder=" 请输入内容">
     </div>
     <div class="header-right">
-        城市
+        {{this.city}}
         <span class="iconfont arrow-icon">&#xe6aa;</span>
     </div>
   </div>
@@ -16,7 +16,9 @@
 
 <script>
   export default {
-
+      props: {
+          city:String
+      }
   }
 
 </script>

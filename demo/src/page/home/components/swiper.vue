@@ -1,8 +1,9 @@
 <template>
     <div class="wrap">
-        <swiper :options="swiperOption">
+        <!-- v-if解决初次创建问题 -->
+        <swiper :options="swiperOption" v-if="list.length">
             <!-- slides -->
-            <swiper-slide v-for="item of swiperList" :key="item.id">
+            <swiper-slide v-for="item of list" :key="item.id">
                 <img :src="item.imgUrl" alt="">
             </swiper-slide>
             <!-- Optional controls -->
@@ -14,30 +15,17 @@
 <script>
 export default {
     name: 'carrousel',
+     props: {
+        list:Array
+    },
     data() {
       return {
         swiperOption: {
-				 autoplay:true,
-				 loop:true,
-                 speed:2000,
-                 pagination:'.swiper-pagination'
-				},
-				swiperList:[{
-					id:'01',
-					imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg'
-				},
-				{
-					id:'02',
-					imgUrl:'http://img1.qunarzz.com/piao/fusion/1805/e5/59fad13a64807d02.jpg_750x200_713ae984.jpg'
-				},
-				{
-					id:'03',
-					imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/d1/2ba49f4f21ed2102.jpg_750x200_79e641ad.jpg'
-				},
-				{
-					id:'04',
-					imgUrl:'http://img1.qunarzz.com/piao/fusion/1805/e4/d1086d4c5671aa02.jpg_750x200_60e211cd.jpg'
-				}]
+            autoplay:true,
+            loop:true,
+            speed:2000,
+            pagination:'.swiper-pagination'
+        }
       }
     }
 }

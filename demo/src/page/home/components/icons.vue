@@ -15,68 +15,23 @@
 
 <script>
 export default {
+    props: {
+        list:Array
+    },
     data () {
         return {
           swiperOption2:{
               autoplay:false,
               loop:false,
               speed:1000
-          },  
-          iconList:[
-              {
-                id:'001',
-                content:"景点门票",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png'
-              },
-              {
-                id:'002',
-                content:"一日游",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png'
-              },
-              {
-                id:'003',
-                content:"必游榜单",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png'
-              },
-              {
-                id:'004',
-                content:"动植物园",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png'
-              },
-              {
-                id:'005',
-                content:"踏青赏花",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png'
-              },
-              {
-                id:'006',
-                content:"城市观光",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png'
-              },
-              {
-                id:'007',
-                content:"上海欢乐谷",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png'
-              },
-              {
-                id:'008',
-                content:"Q+精选",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/ed/cf572be30fc32f02.png'
-              },
-              {
-                id:'009',
-                content:"上海迪士尼",
-                imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/de/f26be47a6bf02a02.png'
-              }
-
-          ]
+          }
         }
     },
     computed: {
         // 多余icon放置在第二页
         pages(){
             const pages=[];
-            this.iconList.forEach((item,index) => {
+            this.list.forEach((item,index) => {
                 const page =Math.floor(index/8)
                 if(!pages[page]){
                     pages[page]=[]

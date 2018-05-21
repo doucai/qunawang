@@ -15,48 +15,8 @@
 
 <script>
 export default {
-    data () {
-        return {
-            recommed:[
-                {
-                    id:"001",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },
-                {
-                    id:"002",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"003",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"004",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"005",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"006",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"007",
-                    imgUrl:"http://img1.qunarzz.com/sight/source/1511/1d/fe098e8cfec117.jpg_r_640x214_a9be292a.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                }
-            ]
-        }
+    props: {
+        recommed:Array
     }
 }
 </script>

@@ -16,48 +16,8 @@
 
 <script>
 export default {
-    data () {
-        return {
-            recommed:[
-                {
-                    id:"001",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },
-                {
-                    id:"002",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"003",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"004",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"005",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"006",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                },{
-                    id:"007",
-                    imgUrl:"http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg",
-                    title:"上海玛雅海滩水公园",
-                    desc:"走进自然或玩转乐园，感知大千世界"
-                }
-            ]
-        }
+     props: {
+        recommed:Array
     }
 }
 </script>
