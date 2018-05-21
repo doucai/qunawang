@@ -20,7 +20,7 @@ export default {
           swiperOption2:{
               autoplay:false,
               loop:false,
-              speed:0
+              speed:1000
           },  
           iconList:[
               {

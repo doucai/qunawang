@@ -2,7 +2,7 @@
 作者:小菜
 本项目是防写去哪网app项目，相关像素会有偏差。
 项目中主要使用了 
-icon font，
+iconfont，
 fastclick.js 
 stylus.css 
 axios  
