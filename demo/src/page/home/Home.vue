@@ -2,17 +2,20 @@
   <div class="hello">
   <Home-Header></Home-Header>
   <Home-Swipers></Home-Swipers>
+  <Home-Icons></Home-Icons>
   </div>
 </template>
 
 <script>
 import HomeHeader from "./components/header"
 import HomeSwipers from "./components/swiper"
+import HomeIcons from "./components/icons"
 export default {
   name: 'hello',
   components: {
     HomeHeader,
-    HomeSwipers
+    HomeSwipers,
+    HomeIcons
   }
 }
 </script>

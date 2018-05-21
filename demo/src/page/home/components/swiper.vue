@@ -19,8 +19,8 @@ export default {
         swiperOption: {
 				 autoplay:true,
 				 loop:true,
-         speed:2000,
-         pagination:'.swiper-pagination'
+                 speed:2000,
+                 pagination:'.swiper-pagination'
 				},
 				swiperList:[{
 					id:'01',
@@ -52,7 +52,7 @@ export default {
   height: 0
   overflow: hidden
   background :grayscale
-  padding-bottom :31.25%    
+  padding-bottom :27.25%    
   .swiper-slide
    img 
      width: 100%
