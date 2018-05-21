@@ -5,7 +5,7 @@
     </div>
     <div class="header-input">
         <span class="iconfont">&#xe632;</span>
-        请输入内容
+       <input type="text" placeholder=" 请输入内容">
     </div>
     <div class="header-right">
         城市
@@ -45,6 +45,12 @@
         color: #888
         line-height: .62rem
         padding-left: .2rem
+        input 
+            width 80%
+            height .62rem
+            line-height .62rem
+            margin -0.07rem 0 0 0.2rem
+            border 0
     .header-right 
         width: 1.24rem
         text-align: center
