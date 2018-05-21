@@ -8,7 +8,8 @@ stylus.css
 axios  
 vue-router
 vue-awesome-swipe
-fastclick
+
+所有资源来源于去哪网,侵删!
 
 
 
