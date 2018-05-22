@@ -7,10 +7,12 @@
         <span class="iconfont">&#xe632;</span>
        <input type="text" placeholder=" 请输入内容">
     </div>
-    <div class="header-right">
+    <router-link to="/city">
+        <div class="header-right">
         {{this.city}}
         <span class="iconfont arrow-icon">&#xe6aa;</span>
     </div>
+    </router-link>
   </div>
 </template>
 
@@ -56,6 +58,7 @@
     .header-right 
         width: 1.24rem
         text-align: center
+        color #fff
         .arrow-icon
             display: inline-block
             font-size: .24rem
