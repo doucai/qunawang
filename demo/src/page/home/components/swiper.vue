@@ -35,6 +35,9 @@ export default {
 // >>>表示当前页面下的样式不受coped限制
 .wrap >>> .swiper-pagination-bullet-active
   background :#fff
+.wrap >>> .swiper-container-horizontal 
+             .swiper-pagination-bullets
+                 margin-bottom .2rem
 .wrap
   width: 100%
   height: 0

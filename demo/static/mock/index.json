@@ -1,109 +1,80 @@
 {
     "ret":true,
     "city":"北京",
-    "swiperList":[
-        {
-            "id":"01",
-            "imgUrl":"http://img1.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg"
-        },
-        {
-            "id":"02",
-            "imgUrl":"http://img1.qunarzz.com/piao/fusion/1805/e5/59fad13a64807d02.jpg_750x200_713ae984.jpg"
-        },
-        {
-            "id":"03",
-            "imgUrl":"http://img1.qunarzz.com/piao/fusion/1804/d1/2ba49f4f21ed2102.jpg_750x200_79e641ad.jpg"
-        },
-        {
-            "id":"04",
-            "imgUrl":"http://img1.qunarzz.com/piao/fusion/1805/e4/d1086d4c5671aa02.jpg_750x200_60e211cd.jpg"
-        }
-    ],
-    "recommed":[
-        {
-            "id":"001",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },
-        {
-            "id":"002",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },{
-            "id":"003",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },{
-            "id":"004",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },{
-            "id":"005",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },{
-            "id":"006",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        },{
-            "id":"007",
-            "imgUrl":"http://img1.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
-            "title":"上海玛雅海滩水公园",
-            "desc":"走进自然或玩转乐园，感知大千世界"
-        }
-    ],
-    "iconList":[
-        {
-          "id":"001",
-          "content":"景点门票",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
-        },
-        {
-          "id":"002",
-          "content":"一日游",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png"
-        },
-        {
-          "id":"003",
-          "content":"必游榜单",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png"
-        },
-        {
-          "id":"004",
-          "content":"动植物园",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
-        },
-        {
-          "id":"005",
-          "content":"踏青赏花",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png"
-        },
-        {
-          "id":"006",
-          "content":"城市观光",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png"
-        },
-        {
-          "id":"007",
-          "content":"上海欢乐谷",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png"
-        },
-        {
-          "id":"008",
-          "content":"Q+精选",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1804/ed/cf572be30fc32f02.png"
-        },
-        {
-          "id":"009",
-          "content":"上海迪士尼",
-          "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/de/f26be47a6bf02a02.png"
-        }
-
-    ]
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/1a/94428c6dea109402.jpg_640x200_2cf590d8.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/42/7c92b9a381e46402.jpg_640x200_1cdce2a4.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
+      }],
+    "recommed":[{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_140x140_abb362a7.jpg",
+        "title": "南山滑雪场",
+        "desc": "北京专业级滑雪圣地"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_140x140_ef235b1c.jpg",
+        "title": "天安门广场",
+        "desc": "我爱北京天安门，天安门上太阳升"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+        "title": "水立方",
+        "desc": "中国的荣耀，阳光下的晶莹水滴"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
+        "title": "温都水城养生馆",
+        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林"
+      }],
+    "iconList":[{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/df/86cbcfc533330d02.png",
+        "desc": "滑雪季"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png",
+        "desc": "泡温泉"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "desc": "动植园"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png",
+        "desc": "游乐园"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png",
+        "desc": "必游榜单"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/17/4bd370f3eb1acd02.png",
+        "desc": "演出"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/7f/b1ea3c8c7fb6db02.png",
+        "desc": "城市观光"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png",
+        "desc": "一日游"
+      }]
 }
