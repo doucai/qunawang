@@ -3,7 +3,7 @@
         <!-- :options="swiperOption" -->
          <swiper :options="swiperOption2">
             <!-- slides -->
-            <swiper-slide v-for="(page ,index ) of pages" :kety="index">
+            <swiper-slide v-for="(page ,index ) of pages" :key="index">
                 <div class="icon" v-for="item of page" :kety="item.id">
                     <img class="icon-img" :src="item.imgUrl" >
                     <p class="icon-img-content">{{item.content}}</p>
