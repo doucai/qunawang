@@ -1,12 +1,58 @@
 <template>
-    <div class="serch">
-        <input class="serch-input" type="text" placeholder="输入城市名或拼音">
+    <div>
+        <div class="serch">
+            <input class="serch-input" v-model="keyword" type="text" placeholder="输入城市名或拼音">
+        </div>
+
+        <div class="serch-content" ref="wrapper2" v-show="keyword">
+            <ul >
+                <li class="serch-item border-topbottom" v-for="item of list">{{item.name}}</li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
+import BScroll from 'better-scroll'
 export default {
-
+    props: {
+        cities:Object
+    },
+    data () {
+        return {
+            keyword:'',
+            timer:null,
+            list:[]
+        }
+    },
+    watch: {
+        // 搜索功能
+        keyword(){
+            if(this.timer){
+                clearTimeout(this.timer)
+            }
+            if(!this.keyword){
+                this.list=[]
+                return this.list
+            }
+            this.timer=setTimeout(()=>{
+                const reslt=[]
+                for(let i in this.cities){
+                    this.cities[i].forEach((val) => {
+                        if(val.spell.indexOf(this.keyword) > -1 ||
+                        val.name.indexOf(this.keyword) > -1){
+                            reslt.push(val)
+                        }
+                    });
+                }
+                this.list=reslt
+            },100)
+        }
+    },
+     mounted () {
+        // bs引入
+       this.scroll = new BScroll(this.$refs.wrapper2)
+    },
 }
 </script>
 
@@ -16,6 +62,8 @@ export default {
         height .72rem
         padding 0 .1rem
         background $bgColor
+        position relative
+        z-index 5
         .serch-input
             box-sizing border-box
             padding .1rem
@@ -25,4 +73,20 @@ export default {
             text-align  center
             border-radius .06rem
             color #666
+    .serch-content
+        position absolute
+        left 0
+        top 1.6rem
+        right 0 
+        bottom 0
+        width 100%
+        height 18rem
+        z-index 2
+        background #eee
+        .serch-item
+            line-height .62rem
+            padding .2rem
+            color #666666
+            background #fff
+
 </style>

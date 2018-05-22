@@ -24,6 +24,8 @@ export default {
         background $bgColor
         font-size .32rem
         color #fff
+        position relative
+        z-index 5
         .color-fff
             color #fff
             .back-icon
