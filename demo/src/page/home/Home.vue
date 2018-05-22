@@ -34,6 +34,7 @@ export default {
   },
   methods: {
     getHomeInfo(){
+      // 获取本地json
       axios.get('/api/index.json')
       .then(this.getHomeInfoSuss)
     },
