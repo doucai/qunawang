@@ -40,7 +40,6 @@ export default {
     },
     getHomeInfoSuss :function (res){
           if(res.status = 200){
-          console.log(res.data)
           this.city=res.data.city
           this.recommeds=res.data.recommed
           this.swiperList=res.data.swiperList
