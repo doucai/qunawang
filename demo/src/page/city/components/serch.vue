@@ -29,12 +29,15 @@ export default {
         // 搜索功能
         keyword(){
             if(this.timer){
+                // 函数截流处理
                 clearTimeout(this.timer)
             }
+            // 若input没有内容了则让下面的为空
             if(!this.keyword){
                 this.list=[]
                 return this.list
             }
+            // 函数截流,取到input值去循环
             this.timer=setTimeout(()=>{
                 const reslt=[]
                 for(let i in this.cities){

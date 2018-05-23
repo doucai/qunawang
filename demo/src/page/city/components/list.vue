@@ -44,6 +44,7 @@ export default {
         letter(){
             if(this.letter){
                 const element=this.$refs[this.letter][0]
+                // 滚动到指定dom元素
                 this.scroll.scrollToElement(element)
             }
         }
