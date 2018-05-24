@@ -9,7 +9,7 @@
     </div>
     <router-link to="/city">
         <div class="header-right">
-        {{this.doubcity}}
+        {{this.currentcity}}
         <span class="iconfont arrow-icon">&#xe6aa;</span>
     </div>
     </router-link>
@@ -17,11 +17,11 @@
 </template>
 
 <script>
-import {mapMutations, mapState,mapGetters} from 'vuex'
+import { mapState} from 'vuex'
   export default {
     computed: {
       ...mapState({currentcity:'city'}),  
-      ...mapGetters(['doubcity'])
+      
     }
   }
 

@@ -15,10 +15,12 @@ import HomeIcons from "./components/icons"
 import HomeRecommend from "./components/recommend"
 import HomeWeekend from "./components/weekend"
 import axios from 'axios'
+import {mapState} from 'vuex'
 export default {
   name: 'hello',
   data(){
     return{
+      lastcity:'',
       recommeds:[],
       swiperList:[],
       iconlist:[]
@@ -31,10 +33,13 @@ export default {
     HomeRecommend,
     HomeWeekend
   },
+  computed: {
+    ...mapState(['city'])
+  },
   methods: {
     getHomeInfo(){
       // 获取本地json
-      axios.get('/api/index.json')
+      axios.get('/api/index.json?city='+this.city)
       .then(this.getHomeInfoSuss)
     },
     getHomeInfoSuss :function (res){
@@ -46,7 +51,15 @@ export default {
     }
   },
   mounted () {
+    this.lastcity=this.city
     this.getHomeInfo()
+  },
+  // 页面从新显示的时候执行,前提是在app.vue中使用了keep-alive
+  activated () {
+    if(this.lastcity !== this.city){
+      this.lastcity=this.city
+      this.getHomeInfo()
+    }
   }
 }
 </script>

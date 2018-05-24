@@ -24,10 +24,10 @@ export default new Vuex.Store({
             }
            
         }
-    },
+    }/* ,
     getters:{
         doubcity(state){
             return state.city
         }
-    }
+    } */
 })

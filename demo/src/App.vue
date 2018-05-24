@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- 优化:只在第一次渲染的时候请求数据,并存入内存 -->
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 
