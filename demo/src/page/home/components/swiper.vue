@@ -24,7 +24,9 @@ export default {
             autoplay:true,
             loop:true,
             speed:2000,
-            pagination:'.swiper-pagination'
+            pagination:'.swiper-pagination',
+            observeParents:true,
+            observer:true,
         }
       }
     }

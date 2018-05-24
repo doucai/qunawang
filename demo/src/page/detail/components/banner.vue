@@ -30,10 +30,12 @@ export default {
         }
     },
     methods: {
+        // 显示画廊
         gallaryIsshow(){
             this.isshow=true
         },
         handleclose(){
+            // 隐藏画廊
             this.isshow=false
         }
     }
