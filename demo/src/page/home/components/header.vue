@@ -9,7 +9,7 @@
     </div>
     <router-link to="/city">
         <div class="header-right">
-        {{this.city}}
+        {{this.doubcity}}
         <span class="iconfont arrow-icon">&#xe6aa;</span>
     </div>
     </router-link>
@@ -17,10 +17,12 @@
 </template>
 
 <script>
+import {mapMutations, mapState,mapGetters} from 'vuex'
   export default {
-      props: {
-          city:String
-      }
+    computed: {
+      ...mapState({currentcity:'city'}),  
+      ...mapGetters(['doubcity'])
+    }
   }
 
 </script>
@@ -56,7 +58,7 @@
             margin -0.07rem 0 0 0.2rem
             border 0
     .header-right 
-        width: 1.24rem
+        min-width: 1.04rem
         text-align: center
         color #fff
         .arrow-icon

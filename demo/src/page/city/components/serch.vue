@@ -6,7 +6,7 @@
 
         <div class="serch-content" ref="wrapper2" v-show="keyword">
             <ul >
-                <li class="serch-item border-topbottom" v-for="item of list">{{item.name}}</li>
+                <li class="serch-item border-topbottom" @click="handleCity(item.name)" v-for="item of list">{{item.name}}</li>
             </ul>
         </div>
     </div>
@@ -14,6 +14,7 @@
 
 <script>
 import BScroll from 'better-scroll'
+import {mapMutations} from 'vuex'
 export default {
     props: {
         cities:Object
@@ -24,6 +25,13 @@ export default {
             timer:null,
             list:[]
         }
+    },
+    methods: {
+        handleCity(city){
+            this.handleCityBtn(city)
+            this.$router.push('/')
+        },
+        ...mapMutations(['handleCityBtn'])
     },
     watch: {
         // 搜索功能

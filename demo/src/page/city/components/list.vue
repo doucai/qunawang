@@ -5,21 +5,21 @@
            <div class="title border-topbottom">当前城市</div>
            <div class="btn-list">
                <div class="btn-wrap" >
-                   <div class="btn">北京</div>
+                   <div class="btn">{{this.currentCity}}</div>
                </div>
            </div>
        </div>
        <div class="area">
            <div class="title border-topbottom">热门城市</div>
            <div class="btn-list">
-               <div class="btn-wrap" v-for="item of hot" :key="item.id">
+               <div class="btn-wrap" @click="handleCity(item.name)" v-for="item of hot" :key="item.id">
                    <div class="btn">{{item.name}}</div>
                </div>
            </div>
        </div>
        <div class="area"  v-for="(item,key) of cities" :key="key" :ref="key">
            <div class="title border-topbottom">{{key}}</div>
-           <div class="item-list" v-for="(items,key) of item" :key="key">
+           <div class="item-list"  @click="handleCity(items.name)" v-for="(items,key) of item" :key="key">
                <div class="item border-bottom">{{items.name}}</div>
            </div>
        </div>
@@ -29,12 +29,26 @@
 
 <script>
 import BScroll from 'better-scroll'
-
+import {mapState, mapMutations} from 'vuex'
 export default {
     props: {
         hot:Array,
         cities:Object,
         letter:String
+    },
+    computed: {
+        ...mapState({
+            currentCity:'city'
+        })
+        
+    },
+    methods: {
+      handleCity(city){
+          this.handleCityBtn(city)
+          this.$router.push('/')
+      },
+        ...mapMutations(['handleCityBtn'])
+        
     },
     mounted () {
         // bs引入

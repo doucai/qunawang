@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <Home-Header :city="city"></Home-Header>
+  <Home-Header ></Home-Header>
   <Home-Swipers :list="swiperList"></Home-Swipers>
   <Home-Icons :list="iconlist"></Home-Icons>
   <Home-Recommend :recommed="recommeds"></Home-Recommend>
@@ -19,7 +19,6 @@ export default {
   name: 'hello',
   data(){
     return{
-      city:'',
       recommeds:[],
       swiperList:[],
       iconlist:[]
@@ -40,7 +39,6 @@ export default {
     },
     getHomeInfoSuss :function (res){
           if(res.status = 200){
-          this.city=res.data.city
           this.recommeds=res.data.recommed
           this.swiperList=res.data.swiperList
           this.iconlist=res.data.iconList
