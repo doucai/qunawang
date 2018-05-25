@@ -53,8 +53,8 @@ import { mapState} from 'vuex'
         padding-left: .2rem
         input 
             width 80%
-            height .62rem
-            line-height .62rem
+            height .5rem
+            line-height .5rem
             margin -0.07rem 0 0 0.2rem
             border 0
     .header-right 

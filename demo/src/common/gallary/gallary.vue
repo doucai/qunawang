@@ -43,7 +43,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
- 
     .gallary
         display flex
         flex-direction column

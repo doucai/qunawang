@@ -1,7 +1,7 @@
 <template>
     <div>
         <ul class="list" >
-            <li class="item" :ref="item" @touchstart="handleTouchstart" @touchmove="handleTouchmove" @touchend="handleTouchend"  @click="btn" v-for="item of letters " :key="item">{{item}}</li>
+            <li class="item" :ref="item" @touchstart.prewent="handleTouchstart" @touchmove="handleTouchmove" @touchend="handleTouchend"  @click="btn" v-for="item of letters " :key="item">{{item}}</li>
         </ul>
     </div>
 </template>
