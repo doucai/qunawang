@@ -22,5 +22,9 @@ export default new Router({
       name: 'detail',
       component: detail
     }
-  ]
+  ],
+  // 每次回到页面的时候保持初始值为X:0,y:0
+  scrollBehavior(to,from,savedPosition){
+    return{x:0,y:0}
+  }
 })

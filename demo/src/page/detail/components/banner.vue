@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="banner" @click="gallaryIsshow">
-            <img class="banner-img" src="http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_600x330_8572a930.jpg" alt="">
+            <img class="banner-img" :src="bannerImg" alt="">
             <div class="banner-info">
-                <p class="banner-item">上海迪士尼乐园</p>
+                <p class="banner-item">{{sightName}}</p>
                 <p class="banner-num">
                     <span class="iconfont">&#xe632;</span>
                     39
@@ -17,6 +17,11 @@
 <script>
 import comGallary from 'common/gallary/gallary'
 export default {
+    props: {
+        sightName:String,
+        bannerImg:String,
+         
+    },
     components: {
         comGallary
     },
