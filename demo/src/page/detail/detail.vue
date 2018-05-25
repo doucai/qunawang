@@ -41,7 +41,6 @@ export default {
         },
         getHomeInfoSuss :function (res){
             if(res.status = 200){
-            console.log(res.data.data)
             this.sightName=res.data.data.sightName
             this.bannerImg=res.data.data.bannerImg
             this.categoryList=res.data.data.categoryList

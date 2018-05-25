@@ -54,6 +54,7 @@ export default {
         right 0
         bottom 0
         background rgb(0,0,0)
+        z-index 999
         .wrapper
             overflow hidden
             height 0
