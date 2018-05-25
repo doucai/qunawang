@@ -44,28 +44,16 @@ proxyTable: {
 
 
 图示：
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/1.jpg)
-<<<<<<< HEAD
-=======
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/1.png)
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/2.jpg)
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/2.png)
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/3.jpg)
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/3.png)
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/4.jpg)
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/4.png)
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/5.jpg)
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/5.png)
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/6.jpg)
+![Image text](https://github.com/doucai/qunawang/blob/master/demo/src/assets/img/6.png)
 
->>>>>>> 1ea316e632292d10157ed33930d25e2457080f7f
 
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/2.jpg)
-
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/3.jpg)
-
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/4.jpg)
-
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/5.jpg)
-
-![Image text](https://github.com/doucai/qunawang/edit/master/demo/src/assets/img/6.jpg)
