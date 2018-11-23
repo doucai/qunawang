@@ -50,6 +50,7 @@ export default {
                 const reslt=[]
                 for(let i in this.cities){
                     this.cities[i].forEach((val) => {
+                    //通过indexOf去检索内容
                         if(val.spell.indexOf(this.keyword) > -1 || val.name.indexOf(this.keyword) > -1){
                             reslt.push(val)
                         }
